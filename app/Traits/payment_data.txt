@@ -1,0 +1,25 @@
+Array
+(
+    [email] => checkwithoutrefer@yopmail.com
+    [account_name] => Without
+    [agency_name] => checkwithoutref
+    [amount_paid] => 0
+    [invoice_number] => B5B0B48F-0001
+    [description] => Trial period for Freelancer
+    [start] => 2022-09-22
+    [end] => 2022-10-06
+    [city] => Refer
+    [country] => United Arab Emirates
+    [line1] => Refer
+    [line2] => Refer
+    [postal_code] => 987654
+    [discounted_value] => 0
+    [from] => Agency Dashboard
+    [package_name] => Freelancer
+    [package_price] => 49
+    [status] => paid
+    [next_payment_attempt] => 
+    [currency] => usd
+    [previous_status] => subscription_create
+    [interval] => 
+)

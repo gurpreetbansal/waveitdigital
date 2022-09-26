@@ -1,0 +1,12 @@
+.modal-backdrop {
+    z-index: 99998;
+    background-color: $cHeading;
+
+    &.show {
+        opacity: 0.92;
+    }
+}
+
+.modal {
+    z-index: 99999;
+}

@@ -1,0 +1,152 @@
+Array
+(
+    [account_id] => acc_AvjlNLojVekXSv
+    [contains] => Array
+        (
+            [0] => payment_link
+            [1] => order
+            [2] => payment
+        )
+
+    [created_at] => 1653543663
+    [entity] => event
+    [event] => payment_link.paid
+    [payload] => Array
+        (
+            [order] => Array
+                (
+                    [entity] => Array
+                        (
+                            [amount] => 4900
+                            [amount_due] => 0
+                            [amount_paid] => 4900
+                            [attempts] => 1
+                            [created_at] => 1653543735
+                            [currency] => USD
+                            [entity] => order
+                            [id] => order_JZkDy4z5emPkfK
+                            [notes] => Array
+                                (
+                                )
+
+                            [offer_id] => 
+                            [receipt] => 
+                            [status] => paid
+                        )
+
+                )
+
+            [payment] => Array
+                (
+                    [entity] => Array
+                        (
+                            [acquirer_data] => Array
+                                (
+                                    [auth_code] => 954280
+                                )
+
+                            [amount] => 4900
+                            [amount_refunded] => 0
+                            [amount_transferred] => 0
+                            [bank] => 
+                            [base_amount] => 380454
+                            [base_currency] => INR
+                            [captured] => 1
+                            [card] => Array
+                                (
+                                    [emi] => 
+                                    [entity] => card
+                                    [id] => card_Je6IZ1I99KqrOb
+                                    [international] => 
+                                    [issuer] => UTIB
+                                    [last4] => 5449
+                                    [name] => GOVIND SINGH
+                                    [network] => MasterCard
+                                    [sub_type] => consumer
+                                    [token_iin] => 
+                                    [type] => credit
+                                )
+
+                            [card_id] => card_Je6IZ1I99KqrOb
+                            [contact] => +919569224888
+                            [created_at] => 1654494833
+                            [currency] => USD
+                            [description] => #JZkCgrTzQdW3Dk
+                            [email] => govind.singh@imarkinfotech.com
+                            [entity] => payment
+                            [error_code] => 
+                            [error_description] => 
+                            [error_reason] => 
+                            [error_source] => 
+                            [error_step] => 
+                            [fee] => 8980
+                            [fee_bearer] => platform
+                            [id] => pay_Je6IYtEdLeJFEc
+                            [international] => 
+                            [invoice_id] => 
+                            [method] => card
+                            [notes] => Array
+                                (
+                                )
+
+                            [order_id] => order_JZkDy4z5emPkfK
+                            [refund_status] => 
+                            [status] => captured
+                            [tax] => 1370
+                            [vpa] => 
+                            [wallet] => 
+                        )
+
+                )
+
+            [payment_link] => Array
+                (
+                    [entity] => Array
+                        (
+                            [accept_partial] => 
+                            [amount] => 4900
+                            [amount_paid] => 4900
+                            [callback_method] => get
+                            [callback_url] => https://waveitdigital.com
+                            [cancelled_at] => 0
+                            [created_at] => 1653543663
+                            [currency] => USD
+                            [customer] => Array
+                                (
+                                    [contact] => +919569244888
+                                    [email] => govind.singh@imarkinfotech.com
+                                    [name] => Govind
+                                )
+
+                            [description] => Freelancer - Subscription
+                            [expire_by] => 0
+                            [expired_at] => 0
+                            [first_min_partial_amount] => 0
+                            [id] => plink_JZkCgrTzQdW3Dk
+                            [notes] => 
+                            [notify] => Array
+                                (
+                                    [email] => 1
+                                    [sms] => 1
+                                )
+
+                            [order_id] => order_JZkDy4z5emPkfK
+                            [reference_id] => 
+                            [reminder_enable] => 1
+                            [reminders] => Array
+                                (
+                                    [status] => in_progress
+                                )
+
+                            [short_url] => https://rzp.io/i/SYc6GTq
+                            [status] => paid
+                            [updated_at] => 1654494840
+                            [upi_link] => 
+                            [user_id] => 
+                        )
+
+                )
+
+        )
+
+)

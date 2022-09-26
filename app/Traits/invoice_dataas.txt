@@ -1,0 +1,259 @@
+stdClass Object
+(
+    [id] => in_1Lkj2PALGLS5RHlx1D5gSeGB
+    [object] => invoice
+    [account_country] => US
+    [account_name] => Shruti Dhiman
+    [account_tax_ids] => 
+    [amount_due] => 0
+    [amount_paid] => 0
+    [amount_remaining] => 0
+    [application] => 
+    [application_fee_amount] => 
+    [attempt_count] => 0
+    [attempted] => 1
+    [auto_advance] => 
+    [automatic_tax] => stdClass Object
+        (
+            [enabled] => 
+            [status] => 
+        )
+
+    [billing_reason] => subscription_create
+    [charge] => 
+    [collection_method] => charge_automatically
+    [created] => 1663828653
+    [currency] => usd
+    [custom_fields] => 
+    [customer] => cus_MTgPhnevm01R09
+    [customer_address] => stdClass Object
+        (
+            [city] => Refer
+            [country] => United Arab Emirates
+            [line1] => Refer
+            [line2] => Refer
+            [postal_code] => 987654
+            [state] => 
+        )
+
+    [customer_email] => checkwithoutrefer@yopmail.com
+    [customer_name] => Without
+    [customer_phone] => 
+    [customer_shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Refer
+                    [country] => United Arab Emirates
+                    [line1] => Refer
+                    [line2] => Refer
+                    [postal_code] => 987654
+                    [state] => 
+                )
+
+            [name] => Without
+            [phone] => 
+        )
+
+    [customer_tax_exempt] => none
+    [customer_tax_ids] => Array
+        (
+        )
+
+    [default_payment_method] => 
+    [default_source] => 
+    [default_tax_rates] => Array
+        (
+        )
+
+    [description] => 
+    [discount] => 
+    [discounts] => Array
+        (
+        )
+
+    [due_date] => 
+    [ending_balance] => 0
+    [footer] => 
+    [from_invoice] => 
+    [hosted_invoice_url] => https://invoice.stripe.com/i/acct_1HHQ70ALGLS5RHlx/test_YWNjdF8xSEhRNzBBTEdMUzVSSGx4LF9NVGdQeWd0T1dMQldURzhjSVdPbHh3d2FkOUxRbkxFLDU0MzY5NDU10200he1LGHFE?s=ap
+    [invoice_pdf] => https://pay.stripe.com/invoice/acct_1HHQ70ALGLS5RHlx/test_YWNjdF8xSEhRNzBBTEdMUzVSSGx4LF9NVGdQeWd0T1dMQldURzhjSVdPbHh3d2FkOUxRbkxFLDU0MzY5NDU10200he1LGHFE/pdf?s=ap
+    [last_finalization_error] => 
+    [latest_revision] => 
+    [lines] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => il_1Lkj2PALGLS5RHlx4QvZzbK3
+                            [object] => line_item
+                            [amount] => 0
+                            [amount_excluding_tax] => 0
+                            [currency] => usd
+                            [description] => Trial period for Freelancer
+                            [discount_amounts] => Array
+                                (
+                                )
+
+                            [discountable] => 1
+                            [discounts] => Array
+                                (
+                                )
+
+                            [livemode] => 
+                            [metadata] => stdClass Object
+                                (
+                                )
+
+                            [period] => stdClass Object
+                                (
+                                    [end] => 1665038253
+                                    [start] => 1663828653
+                                )
+
+                            [plan] => stdClass Object
+                                (
+                                    [id] => price_1LKFfNALGLS5RHlx1eJsA47t
+                                    [object] => plan
+                                    [active] => 1
+                                    [aggregate_usage] => 
+                                    [amount] => 4900
+                                    [amount_decimal] => 4900
+                                    [billing_scheme] => per_unit
+                                    [created] => 1657519221
+                                    [currency] => usd
+                                    [interval] => month
+                                    [interval_count] => 1
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [nickname] => 
+                                    [product] => prod_LuRUpyUSQy1UI4
+                                    [tiers] => 
+                                    [tiers_mode] => 
+                                    [transform_usage] => 
+                                    [trial_period_days] => 
+                                    [usage_type] => licensed
+                                )
+
+                            [price] => stdClass Object
+                                (
+                                    [id] => price_1LKFfNALGLS5RHlx1eJsA47t
+                                    [object] => price
+                                    [active] => 1
+                                    [billing_scheme] => per_unit
+                                    [created] => 1657519221
+                                    [currency] => usd
+                                    [custom_unit_amount] => 
+                                    [livemode] => 
+                                    [lookup_key] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [nickname] => 
+                                    [product] => prod_LuRUpyUSQy1UI4
+                                    [recurring] => stdClass Object
+                                        (
+                                            [aggregate_usage] => 
+                                            [interval] => month
+                                            [interval_count] => 1
+                                            [trial_period_days] => 
+                                            [usage_type] => licensed
+                                        )
+
+                                    [tax_behavior] => unspecified
+                                    [tiers_mode] => 
+                                    [transform_quantity] => 
+                                    [type] => recurring
+                                    [unit_amount] => 4900
+                                    [unit_amount_decimal] => 4900
+                                )
+
+                            [proration] => 
+                            [proration_details] => stdClass Object
+                                (
+                                    [credited_items] => 
+                                )
+
+                            [quantity] => 1
+                            [subscription] => sub_1Lkj2PALGLS5RHlxroJDk2aW
+                            [subscription_item] => si_MTgPFEzaVVPpqZ
+                            [tax_amounts] => Array
+                                (
+                                )
+
+                            [tax_rates] => Array
+                                (
+                                )
+
+                            [type] => subscription
+                            [unit_amount_excluding_tax] => 0
+                        )
+
+                )
+
+            [has_more] => 
+            [total_count] => 1
+            [url] => /v1/invoices/in_1Lkj2PALGLS5RHlx1D5gSeGB/lines
+        )
+
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [next_payment_attempt] => 
+    [number] => B5B0B48F-0001
+    [on_behalf_of] => 
+    [paid] => 1
+    [paid_out_of_band] => 
+    [payment_intent] => 
+    [payment_settings] => stdClass Object
+        (
+            [default_mandate] => 
+            [payment_method_options] => 
+            [payment_method_types] => 
+        )
+
+    [period_end] => 1663828653
+    [period_start] => 1663828653
+    [post_payment_credit_notes_amount] => 0
+    [pre_payment_credit_notes_amount] => 0
+    [quote] => 
+    [receipt_number] => 
+    [rendering_options] => 
+    [starting_balance] => 0
+    [statement_descriptor] => 
+    [status] => paid
+    [status_transitions] => stdClass Object
+        (
+            [finalized_at] => 1663828653
+            [marked_uncollectible_at] => 
+            [paid_at] => 1663828653
+            [voided_at] => 
+        )
+
+    [subscription] => sub_1Lkj2PALGLS5RHlxroJDk2aW
+    [subtotal] => 0
+    [subtotal_excluding_tax] => 0
+    [tax] => 
+    [tax_percent] => 
+    [test_clock] => 
+    [total] => 0
+    [total_discount_amounts] => Array
+        (
+        )
+
+    [total_excluding_tax] => 0
+    [total_tax_amounts] => Array
+        (
+        )
+
+    [transfer_data] => 
+    [webhooks_delivered_at] => 
+)

@@ -1,0 +1,115 @@
+.site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: $cWhite;
+    z-index: 9999;
+    @include transition;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        @include transition;
+
+        .site-logo {
+            display: inline-flex;
+            height: 100%;
+            min-width: 150px;
+
+            a {
+                display: inline-flex;
+                align-items: center;
+                height: 100%;
+
+                img {
+                    max-height: 100%;
+                }
+            }
+        }
+
+        ul {
+            display: inline-flex;
+            height: 100%;
+
+            li {
+                display: inline-flex;
+                height: 100%;
+                margin: 0;
+
+                a {
+                    font-size: rem(13px);
+                    font-weight: 500;
+                    line-height: 23px;
+                    padding: 0 25px;
+                    letter-spacing: .4px;
+                    text-transform: uppercase;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    font-family: $font_Raleway;
+                }
+            }
+        }
+
+        .site-search {
+            display: inline-flex;
+            justify-content: flex-end;
+            height: 100%;
+            min-width: 150px;
+            position: relative;
+
+            a {
+                display: inline-flex;
+                align-items: center;
+                height: 100%;
+                font-size: rem(20px);
+
+                i {
+                    transform: scaleX(-1);
+                    transform-origin: center;
+                }
+            }
+
+            .form {
+                position: absolute;
+                right: 20px;
+                top: 50%;
+                transform: translate(0, -50%);
+                height: 50px;
+                max-width: 200px;
+                min-width: 200px;
+                border-bottom: 1px solid rgba($cText, .3);
+                opacity: 0;
+                visibility: hidden;
+                @include transition;
+
+                input {
+                    border: none;
+                    height: 100%;
+                    padding: 0;
+                    width: 100%;
+                    font-size: rem(14px);
+                }
+            }
+
+            &.visible {
+                .form {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
+    &.scrolled {
+        box-shadow: 0 10px 40px -6px rgba($cBlack, .15);
+
+        nav {
+            height: 80px;
+        }
+    }
+}

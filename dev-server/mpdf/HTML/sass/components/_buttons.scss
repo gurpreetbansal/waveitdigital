@@ -1,0 +1,71 @@
+.btn {
+    min-height: 54px;
+    font-size: rem(11px);
+    padding: 10px 43px;
+    border-radius: 25px;
+    @include btn(600, uppercase, 3.2px);
+    @include transition;
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        box-shadow: 0 0.4em 0.5em -0.4em $cButtonPrimary;
+        transform: translateY(-0.15em);
+    }
+
+    &.if-icon {
+        height: 38px;
+        width: 38px;
+        padding: 0;
+        min-height: 1px;
+
+        .line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            &:before,
+            &:after {
+                content: "";
+                background-color: #dedede;
+                position: absolute;
+            }
+
+            &:before {
+                width: 1px;
+                height: 15px;
+            }
+
+            &:after {
+                width: 15px;
+                height: 1px;
+            }
+        }
+
+        &:hover {
+            transform: rotate(-90deg);
+        }
+    }
+
+    &.btn-primary {
+        background-color: $cButtonPrimary;
+        border: 1px solid $cButtonPrimary;
+        color: $cWhite;
+
+        &.outline {
+            background-color: transparent;
+            border: 1px solid $cButtonPrimary;
+            color: $cButtonPrimary;
+
+            &:hover {
+                background-color: $cButtonPrimary;
+                color: $cWhite;
+            }
+        }
+    }
+}

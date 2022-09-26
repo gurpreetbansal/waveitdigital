@@ -1,0 +1,6 @@
+Array
+(
+    [url] => charismile.com.sg
+    [user_id] => 99
+    [campaign_id] => 86
+)

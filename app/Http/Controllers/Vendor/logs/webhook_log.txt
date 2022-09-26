@@ -1,0 +1,276 @@
+stdClass Object
+(
+    [id] => evt_1Ll8uqALGLS5RHlxEHl0Qi0z
+    [object] => event
+    [api_version] => 2020-03-02
+    [created] => 1663928128
+    [data] => stdClass Object
+        (
+            [object] => stdClass Object
+                (
+                    [object] => invoice
+                    [account_country] => US
+                    [account_name] => Shruti Dhiman
+                    [account_tax_ids] => 
+                    [amount_due] => 39900
+                    [amount_paid] => 0
+                    [amount_remaining] => 39900
+                    [application] => 
+                    [application_fee_amount] => 
+                    [attempt_count] => 0
+                    [attempted] => 
+                    [automatic_tax] => stdClass Object
+                        (
+                            [enabled] => 
+                            [status] => 
+                        )
+
+                    [billing_reason] => upcoming
+                    [charge] => 
+                    [collection_method] => charge_automatically
+                    [created] => 1664187230
+                    [currency] => usd
+                    [custom_fields] => 
+                    [customer] => cus_MENdNlTMWLuKip
+                    [customer_address] => stdClass Object
+                        (
+                            [city] => Londin
+                            [country] => United Kingdom
+                            [line1] => IT Park
+                            [line2] => 
+                            [postal_code] => 654321
+                            [state] => 
+                        )
+
+                    [customer_email] => siteauditcheck@yopmail.com
+                    [customer_name] => Sahil Gaba
+                    [customer_phone] => 
+                    [customer_shipping] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Londin
+                                    [country] => United Kingdom
+                                    [line1] => IT Park
+                                    [line2] => 
+                                    [postal_code] => 654321
+                                    [state] => 
+                                )
+
+                            [name] => Sahil Gaba
+                            [phone] => 
+                        )
+
+                    [customer_tax_exempt] => none
+                    [customer_tax_ids] => Array
+                        (
+                        )
+
+                    [default_payment_method] => 
+                    [default_source] => 
+                    [default_tax_rates] => Array
+                        (
+                        )
+
+                    [description] => 
+                    [discount] => 
+                    [discounts] => Array
+                        (
+                        )
+
+                    [due_date] => 
+                    [ending_balance] => 0
+                    [footer] => 
+                    [from_invoice] => 
+                    [last_finalization_error] => 
+                    [latest_revision] => 
+                    [lines] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => il_tmp_1ebd2cALGLS5RHlxb412b01a
+                                            [object] => line_item
+                                            [amount] => 39900
+                                            [amount_excluding_tax] => 39900
+                                            [currency] => usd
+                                            [description] => 1 × Enterprise (at $399.00 / month)
+                                            [discount_amounts] => Array
+                                                (
+                                                )
+
+                                            [discountable] => 1
+                                            [discounts] => Array
+                                                (
+                                                )
+
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                )
+
+                                            [period] => stdClass Object
+                                                (
+                                                    [end] => 1666779230
+                                                    [start] => 1664187230
+                                                )
+
+                                            [plan] => stdClass Object
+                                                (
+                                                    [id] => price_1LKFmFALGLS5RHlxNHLEtWrm
+                                                    [object] => plan
+                                                    [active] => 1
+                                                    [aggregate_usage] => 
+                                                    [amount] => 39900
+                                                    [amount_decimal] => 39900
+                                                    [billing_scheme] => per_unit
+                                                    [created] => 1657519647
+                                                    [currency] => usd
+                                                    [interval] => month
+                                                    [interval_count] => 1
+                                                    [livemode] => 
+                                                    [metadata] => stdClass Object
+                                                        (
+                                                        )
+
+                                                    [nickname] => 
+                                                    [product] => prod_M2KRebVBSDDoLb
+                                                    [tiers] => 
+                                                    [tiers_mode] => 
+                                                    [transform_usage] => 
+                                                    [trial_period_days] => 
+                                                    [usage_type] => licensed
+                                                )
+
+                                            [price] => stdClass Object
+                                                (
+                                                    [id] => price_1LKFmFALGLS5RHlxNHLEtWrm
+                                                    [object] => price
+                                                    [active] => 1
+                                                    [billing_scheme] => per_unit
+                                                    [created] => 1657519647
+                                                    [currency] => usd
+                                                    [custom_unit_amount] => 
+                                                    [livemode] => 
+                                                    [lookup_key] => 
+                                                    [metadata] => stdClass Object
+                                                        (
+                                                        )
+
+                                                    [nickname] => 
+                                                    [product] => prod_M2KRebVBSDDoLb
+                                                    [recurring] => stdClass Object
+                                                        (
+                                                            [aggregate_usage] => 
+                                                            [interval] => month
+                                                            [interval_count] => 1
+                                                            [trial_period_days] => 
+                                                            [usage_type] => licensed
+                                                        )
+
+                                                    [tax_behavior] => unspecified
+                                                    [tiers_mode] => 
+                                                    [transform_quantity] => 
+                                                    [type] => recurring
+                                                    [unit_amount] => 39900
+                                                    [unit_amount_decimal] => 39900
+                                                )
+
+                                            [proration] => 
+                                            [proration_details] => stdClass Object
+                                                (
+                                                    [credited_items] => 
+                                                )
+
+                                            [quantity] => 1
+                                            [subscription] => sub_1LVusEALGLS5RHlxLcUxXnGh
+                                            [subscription_item] => si_MENdfoPvizlUUL
+                                            [tax_amounts] => Array
+                                                (
+                                                )
+
+                                            [tax_rates] => Array
+                                                (
+                                                )
+
+                                            [type] => subscription
+                                            [unit_amount_excluding_tax] => 39900
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/invoices/upcoming/lines?customer=cus_MENdNlTMWLuKip&subscription=sub_1LVusEALGLS5RHlxLcUxXnGh
+                        )
+
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [next_payment_attempt] => 1664190830
+                    [number] => 
+                    [on_behalf_of] => 
+                    [paid] => 
+                    [paid_out_of_band] => 
+                    [payment_intent] => 
+                    [payment_settings] => stdClass Object
+                        (
+                            [default_mandate] => 
+                            [payment_method_options] => 
+                            [payment_method_types] => 
+                        )
+
+                    [period_end] => 1664187230
+                    [period_start] => 1661508830
+                    [post_payment_credit_notes_amount] => 0
+                    [pre_payment_credit_notes_amount] => 0
+                    [quote] => 
+                    [receipt_number] => 
+                    [rendering_options] => 
+                    [starting_balance] => 0
+                    [statement_descriptor] => 
+                    [status] => draft
+                    [status_transitions] => stdClass Object
+                        (
+                            [finalized_at] => 
+                            [marked_uncollectible_at] => 
+                            [paid_at] => 
+                            [voided_at] => 
+                        )
+
+                    [subscription] => sub_1LVusEALGLS5RHlxLcUxXnGh
+                    [subtotal] => 39900
+                    [subtotal_excluding_tax] => 39900
+                    [tax] => 
+                    [tax_percent] => 
+                    [test_clock] => 
+                    [total] => 39900
+                    [total_discount_amounts] => Array
+                        (
+                        )
+
+                    [total_excluding_tax] => 39900
+                    [total_tax_amounts] => Array
+                        (
+                        )
+
+                    [transfer_data] => 
+                    [webhooks_delivered_at] => 
+                )
+
+        )
+
+    [livemode] => 
+    [pending_webhooks] => 1
+    [request] => stdClass Object
+        (
+            [id] => 
+            [idempotency_key] => 
+        )
+
+    [type] => invoice.upcoming
+)

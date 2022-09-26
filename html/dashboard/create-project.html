@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Agency Dashboard | Welcome</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" sizes="32x32" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <div class="loader h-33"></div>
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <div class="loader h-33 loaderNav"></div>
+        <div class="loader h-33 loaderNav"></div>
+        <div class="loader h-33 loaderNav"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+        <div class="loader h-33 loaderNavSub"></div>
+
+        <nav>
+
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li><a href="#">
+
+                        <figure><img src="images/dashboard-icon.png" alt="Dashboard"></figure> Dashboard
+                    </a></li>
+            </ul>
+
+            <div class="uk-navbar-item">
+                <form action="javascript:void(0)">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><span uk-icon="icon:search"></span></button>
+                </form>
+            </div>
+
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-parent uk-open">
+                    <a href="#">
+                        <figure><img src="images/project-icon.png" alt="Projects"></figure> Projects
+                    </a>
+
+                    <ul class="uk-nav-sub">
+                        <li class="active"><a href="#">SEO Experts India</a></li>
+                        <li><a href="#">iMark Infotech Pvt Ltd</a></li>
+                        <li><a href="#">B K Electrical Services</a></li>
+                        <li><a href="#">Home Spa Services</a></li>
+                        <li><a href="#">IM- DE- www.alubox.org</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+    </aside>
+
+    <main>
+        <div class="header">
+            <div class="header-nav">
+                <div class="loader h-54"></div>
+                <ul>
+                    <li>
+                        <button type="button">
+                            <span uk-icon="icon:bell"></span>
+                            <span class="uk-badge">1</span>
+                        </button>
+                        <div uk-dropdown class="align-right">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-header">Header</li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button">
+                            <figure><img src="images/user-img.jpg"></figure>
+                            Shruti Dhiman
+                            <span class="caret" uk-icon="icon: triangle-down"></span>
+                        </button>
+                        <div uk-dropdown>
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="active"><a href="#"><span uk-icon="icon: user"></span> Profile</a></li>
+                                <li><a href="#"><span uk-icon="icon: lock"></span> Change Password</a></li>
+                                <li><a href="#"><span uk-icon="icon: cog"></span> Account Settings</a></li>
+                                <li><a href="#"><span uk-icon="icon: sign-out"></span> Logout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="create-project-container">
+            <div class="create-project-head">
+                <div class="loader h-54"></div>
+                <h3>Create project <small>(example.com)</small></h3>
+            </div>
+
+            <div class="loader h-300-table"></div>
+
+            <div class="create-project-tabs">
+                <ul>
+                    <li class="active complete">
+                        <img src="images/project-info-icon.png">
+                        Project Info
+                        <span><i class="fa fa-check"></i></span>
+                    </li>
+                    <li>
+                        <img src="images/integrations-icon.png">
+                        Integrations
+                        <span><i class="fa fa-check"></i></span>
+                    </li>
+                    <li>
+                        <img src="images/rank-tracker-settings-icon.png">
+                        Rank Tracker Settings
+                        <span><i class="fa fa-check"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="create-project-tab-content hiddenOnLoad">
+                <div class="create-project-box">
+                    <h4>Welcome, <small>It only takes a few seconds to add your project</small></h4>
+                </div>
+                <form>
+                    <div class="create-project-white-box d-flex">
+                        <div class="elem-left">
+
+                            <div class="form-group">
+                                <span class="icon"><img src="images/project-name-icon.png"></span>
+                                <input type="text" class="form-control" placeholder="Project Name">
+                            </div>
+                            <div class="form-group">
+                                <span class="icon"><img src="images/project-website-icon.png"></span>
+                                <input type="text" class="form-control error" placeholder="example.com">
+                            </div>
+                            <div class="form-group">
+                                <span class="icon"><img src="images/project-egn-icon.png"></span>
+                                <select class="form-control">
+                                    <option>nz (google.co.nz)</option>
+                                    <option>List item 1</option>
+                                    <option>List item 2</option>
+                                    <option>List item 3</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Select your Dashboards</label>
+                                <div class="checkbox-group">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="custom-checkbox"></span>
+                                        SEO
+                                    </label>
+
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="custom-checkbox"></span>
+                                        PPC
+                                    </label>
+
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="custom-checkbox"></span>
+                                        GMB
+                                    </label>
+
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="custom-checkbox"></span>
+                                        Social
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="elem-right form-notes">
+                            <ul>
+                                <li>
+                                    Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.
+                                </li>
+                                <li>Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.</li>
+
+                                <li>Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="create-project-box d-flex">
+                        <div class="elem-left">
+                            <input type="reset" class="btn btn-border" value="Cancel">
+                        </div>
+                        <div class="elem-right text-right">
+                            <input type="button" class="btn btn-border" value="Previous">
+                            <input type="submit" disabled class="btn blue-btn" value="Next">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="create-project-tab-content hiddenOnLoad">
+                <div class="create-project-box">
+                    <h4>Integrations, <small>Connect your Google Analytics and Google Search Console accounts.</small>
+                    </h4>
+                </div>
+                <form>
+                    <div class="create-project-white-box integration-list">
+                        <article>
+                            <figure>
+                                <img src="images/google-search-console-img.png">
+                            </figure>
+                            <div>
+                                <p>To get insights about SERP, keywords and build reports for your SEO dashboard.</p>
+                                <a href="#" class="btn btn-border blue-btn-border" data-pd-popup-open="connectIntepopup">Connect</a>
+                            </div>
+
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/google-analytics-img.png">
+                            </figure>
+                            <div>
+                                <p>To get insights about your website traffic and build reports for your SEO dashboard.
+                                </p>
+                                <a href="#" class="btn btn-border blue-btn-border">Connect</a>
+                            </div>
+
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/google-ads-img.png">
+                            </figure>
+                            <div>
+                                <p>To get insights about your website traffic and build reports for your SEO dashboard.
+                                </p>
+                                <a href="#" class="btn btn-border blue-btn-border">Connect</a>
+                            </div>
+
+                        </article>
+                    </div>
+
+                    <div class="create-project-box d-flex">
+                        <div class="elem-left">
+                            <input type="reset" class="btn btn-border" value="Cancel">
+                        </div>
+                        <div class="elem-right text-right">
+                            <input type="button" class="btn btn-border" value="Previous">
+                            <input type="submit" class="btn blue-btn" value="Next">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="create-project-tab-content hiddenOnLoad">
+                <div class="create-project-box">
+                    <h4>Rank Tracker Settings, <small>Set up your keywords ranking tracking.</small></h4>
+                </div>
+                <form>
+                    <div class="create-project-white-box d-flex">
+                        <div class="elem-left">
+
+                            <div class="form-group">
+                                <span class="icon"><img src="images/google-icon.png"></span>
+                                <input type="text" class="form-control" placeholder="Search engine">
+                            </div>
+
+                            <div class="form-group dropdown">
+                                <select class="selectpicker countrypicker" data-flag="true" data-live-search="true"
+                                    data-default="US"></select>
+                            </div>
+
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>City (optional)</option>
+                                    <option>List item 1</option>
+                                    <option>List item 2</option>
+                                    <option>List item 3</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Select your Dashboards</label>
+                                <div class="radio-group">
+                                    <label>
+                                        <input type="radio" name="SelectDashboards">
+                                        <span class="custom-radio"></span>
+                                        Desktop
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" name="SelectDashboards">
+                                        <span class="custom-radio"></span>
+                                        Mobile
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="elem-right form-notes">
+                            <ul>
+                                <li>
+                                    Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.
+                                </li>
+                                <li>Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.</li>
+
+                                <li>Google is chosen by default. You can switch to Bing, Yahoo, or Yandex.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="create-project-box d-flex">
+                        <div class="elem-left">
+                            <input type="reset" class="btn btn-border" value="Cancel">
+                        </div>
+                        <div class="elem-right text-right">
+                            <input type="button" class="btn btn-border" value="Previous">
+                            <input type="submit" class="btn blue-btn" value="Finish">
+                        </div>
+                    </div>
+                </form>
+
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="popup" data-pd-popup="connectIntepopup">
+        <div class="popup-inner">
+            <h3>Connect Your Google Analytics Account</h3>
+
+            <div class="popup-elem-group">
+                <div class="elem-left right-border">
+                    <form>
+                        <div class="form-group">
+                            <span class="icon"><img src="images/google-analytics-icon.png"></span>
+                            <select class="form-control">
+                                <option>Select from existing account</option>
+                                <option>List item 1</option>
+                                <option>List item 2</option>
+                                <option>List item 3</option>
+                            </select>
+                        </div>
+                        <h6>Select a Campaign</h6>
+                        <div class="form-group">
+
+                            <span class="icon"><img src="images/select-account-icon.png"></span>
+                            <select class="form-control">
+                                <option>Select Account</option>
+                                <option>List item 1</option>
+                                <option>List item 2</option>
+                                <option>List item 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><img src="images/select-property-icon.png"></span>
+                            <select class="form-control">
+                                <option>Select Property</option>
+                                <option>List item 1</option>
+                                <option>List item 2</option>
+                                <option>List item 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <span class="icon"><img src="images/pageviews-img-small.png"></span>
+                            <select class="form-control">
+                                <option>Select View</option>
+                                <option>List item 1</option>
+                                <option>List item 2</option>
+                                <option>List item 3</option>
+                            </select>
+                        </div>
+                        <div class="text-left btn-group start">
+                            <input type="submit" class="btn blue-btn mr-3" value="Save">
+                        </div>
+                    </form>
+                </div>
+                <div class="elem-right flex">
+                    <a href="#" class="btn yellow-btn">Add New Account</a>
+                </div>
+            </div>
+
+            <a class="popup-close" data-pd-popup-close="connectIntepopup" href="#"></a>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="js/bundle.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/selectCountry.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

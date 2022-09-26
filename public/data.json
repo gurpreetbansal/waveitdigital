@@ -1,0 +1,371 @@
+[
+  {
+    "place_id": 6143529,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 676474646,
+    "boundingbox": [
+      "32.1065788",
+      "32.1066788",
+      "76.5348781",
+      "76.5349781"
+    ],
+    "lat": "32.1066288",
+    "lon": "76.5349281",
+    "display_name": "State Bank of India, NH 20, Committee area, Nihang, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "amenity",
+    "type": "bank",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_bank2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.5349281,
+        32.1066288
+      ]
+    }
+  },
+  {
+    "place_id": 59090411,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5117114263,
+    "boundingbox": [
+      "32.1141572",
+      "32.1142572",
+      "76.5349149",
+      "76.5350149"
+    ],
+    "lat": "32.1142072",
+    "lon": "76.5349649",
+    "display_name": "Bank of India, Palampur - Dharamsala Road, Committee area, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "amenity",
+    "type": "bank",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_bank2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.5349649,
+        32.1142072
+      ]
+    }
+  },
+  {
+    "place_id": 45793693,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3669912239,
+    "boundingbox": [
+      "32.1136949",
+      "32.1137949",
+      "76.5345189",
+      "76.5346189"
+    ],
+    "lat": "32.1137449",
+    "lon": "76.5345689",
+    "display_name": "IDBI Bank, Palampur - Dharamshala Road, Committee area, Nihang, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "amenity",
+    "type": "bank",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_bank2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.5345689,
+        32.1137449
+      ]
+    }
+  },
+  {
+    "place_id": 160928009,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 285166341,
+    "boundingbox": [
+      "32.1063002",
+      "32.1068183",
+      "76.5336181",
+      "76.534125"
+    ],
+    "lat": "32.10656835",
+    "lon": "76.53386861589603",
+    "display_name": "Life Insurance Corporation of India, NH to By Pass Link Road, Committee area, Nihang, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "office",
+    "type": "insurance",
+    "importance": 0.31100000000000005,
+    "geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            76.5336181,
+            32.1064956
+          ],
+          [
+            76.5336476,
+            32.1064593
+          ],
+          [
+            76.5336985,
+            32.1064093
+          ],
+          [
+            76.5337522,
+            32.1063775
+          ],
+          [
+            76.5337871,
+            32.1063343
+          ],
+          [
+            76.5338192,
+            32.1063116
+          ],
+          [
+            76.5338997,
+            32.1063002
+          ],
+          [
+            76.5339587,
+            32.106348
+          ],
+          [
+            76.5339802,
+            32.1063979
+          ],
+          [
+            76.5340204,
+            32.1064388
+          ],
+          [
+            76.5340606,
+            32.1064616
+          ],
+          [
+            76.5340848,
+            32.1065093
+          ],
+          [
+            76.534125,
+            32.1065797
+          ],
+          [
+            76.5340821,
+            32.1066161
+          ],
+          [
+            76.534066,
+            32.1066638
+          ],
+          [
+            76.5340311,
+            32.106741
+          ],
+          [
+            76.534015,
+            32.1067842
+          ],
+          [
+            76.5339668,
+            32.1068114
+          ],
+          [
+            76.5339239,
+            32.1068183
+          ],
+          [
+            76.5338541,
+            32.1068092
+          ],
+          [
+            76.5338005,
+            32.1067728
+          ],
+          [
+            76.5337576,
+            32.1067456
+          ],
+          [
+            76.5336851,
+            32.1067433
+          ],
+          [
+            76.5336449,
+            32.1067001
+          ],
+          [
+            76.5336342,
+            32.1066638
+          ],
+          [
+            76.5336208,
+            32.106607
+          ],
+          [
+            76.5336181,
+            32.106557
+          ],
+          [
+            76.5336181,
+            32.1064956
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "place_id": 72026641,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6495346587,
+    "boundingbox": [
+      "31.9976153",
+      "31.9977153",
+      "77.4932528",
+      "77.4933528"
+    ],
+    "lat": "31.9976653",
+    "lon": "77.4933028",
+    "display_name": "Himachal Pradesh Forest Department Checkpoint, Barsheini to Khirganga, Khirganga, Kullu, Himachal Pradesh, India",
+    "class": "office",
+    "type": "government",
+    "importance": 0.31100000000000005,
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        77.4933028,
+        31.9976653
+      ]
+    }
+  },
+  {
+    "place_id": 51560700,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4377336369,
+    "boundingbox": [
+      "32.0912477",
+      "32.0913477",
+      "76.5273036",
+      "76.5274036"
+    ],
+    "lat": "32.0912977",
+    "lon": "76.5273536",
+    "display_name": "Tea Board of India, NH 20, Committee area, Nihang, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "office",
+    "type": "administrative",
+    "importance": 0.31100000000000005,
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.5273536,
+        32.0912977
+      ]
+    }
+  },
+  {
+    "place_id": 45685763,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3669633750,
+    "boundingbox": [
+      "32.104705",
+      "32.104805",
+      "76.5338935",
+      "76.5339935"
+    ],
+    "lat": "32.104755",
+    "lon": "76.5339435",
+    "display_name": "ATM State Bank of India, NH 20, Committee area, Nihang, Palampur, Kangra, Himachal Pradesh, 176061, India",
+    "class": "amenity",
+    "type": "atm",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_atm2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.5339435,
+        32.104755
+      ]
+    }
+  },
+  {
+    "place_id": 72930379,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6611356237,
+    "boundingbox": [
+      "32.1299596",
+      "32.1300596",
+      "76.2952315",
+      "76.2953315"
+    ],
+    "lat": "32.1300096",
+    "lon": "76.2952815",
+    "display_name": "State Bank of India, NH154, Kachhiari, Kangra, Himachal Pradesh, 176001, India",
+    "class": "amenity",
+    "type": "atm",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_atm2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.2952815,
+        32.1300096
+      ]
+    }
+  },
+  {
+    "place_id": 72006307,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6506173909,
+    "boundingbox": [
+      "32.1534921",
+      "32.1535921",
+      "76.2696865",
+      "76.2697865"
+    ],
+    "lat": "32.1535421",
+    "lon": "76.2697365",
+    "display_name": "State Bank of India, NH154, Gaggal Bazaar, Gaggal, Kangra, Himachal Pradesh, 176209, India",
+    "class": "amenity",
+    "type": "atm",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_atm2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.2697365,
+        32.1535421
+      ]
+    }
+  },
+  {
+    "place_id": 72943747,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6612547343,
+    "boundingbox": [
+      "31.8473036",
+      "31.8474036",
+      "76.1876315",
+      "76.1877315"
+    ],
+    "lat": "31.8473536",
+    "lon": "76.1876815",
+    "display_name": "State Bank of India, NH503, Dailiyara, Dera Gopipur, Kangra, Himachal Pradesh, 177103, India",
+    "class": "amenity",
+    "type": "bank",
+    "importance": 0.31100000000000005,
+    "icon": "https://nominatim.openstreetmap.org/ui/mapicons//money_bank2.p.20.png",
+    "geojson": {
+      "type": "Point",
+      "coordinates": [
+        76.1876815,
+        31.8473536
+      ]
+    }
+  }
+]

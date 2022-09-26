@@ -1,0 +1,38 @@
+/*!
+CSS Document
+Project Name: Devallum
+Project Description:
+Written By: iMark Infotech - Gurinder Singh
+Created On: 13-05-2021
+Last Modified:
+*/
+// Vendors and external stylesheets
+@import "vendors/bootstrap";
+@import "vendors/line-awesome";
+@import "vendors/font-awesome";
+@import "vendors/swiper-slider";
+@import "vendors/aos";
+
+// Sass utilities
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// Base stuffs
+@import "base/reset";
+@import "base/typography";
+
+// Layout related stylesheets
+@import "layout/header";
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/style";
+@import "layout/modals";
+
+// Components and modules
+@import "components/buttons";
+
+// Page-specific stylesheets
+@import "pages/index";
+@import "pages/about";
+@import "pages/contact";

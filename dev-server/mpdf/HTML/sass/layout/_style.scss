@@ -1,0 +1,200 @@
+// a:focus-visible {
+//     outline: 2px dashed $cPrimary !important;
+// }
+
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bg-primary {
+    background-color: $cPrimary !important;
+}
+
+.color-primary {
+    color: $cPrimary !important;
+}
+
+.bgBlack {
+    background-color: $cBlack;
+}
+
+.bgWhite {
+    background-color: $cWhite;
+}
+
+.uSpace {
+    padding: 100px 0;
+}
+
+.uTSpace {
+    padding: 100px 0 0 0;
+}
+
+.uBSpace {
+    padding: 0 0 100px 0;
+}
+
+.content {
+    padding-top: 100px;
+    position: relative;
+    z-index: 2;
+    background: $cWhite;
+}
+
+.border-shape {
+    position: relative;
+    padding: 30px 55px 35px 55px;
+
+    &.max-width {
+        max-width: 710px;
+        margin: 0 auto;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    span {
+
+        &::before,
+        &::after {
+            content: '';
+            background-color: $cBlack;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        &.line-TopLeft {
+            &::before {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 1px;
+                transition: height .5s .4s;
+            }
+
+            &::after {
+                left: 0;
+                top: 0;
+                height: 1px;
+                width: 100%;
+                transition: width .5s .4s;
+            }
+        }
+
+        &.line-BottomRight {
+            &::before {
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                width: 1px;
+                transition: height .5s .4s;
+            }
+
+            &::after {
+                right: 0;
+                bottom: 0;
+                height: 1px;
+                width: 100%;
+                transition: width .5s .4s;
+            }
+        }
+    }
+
+    &.light {
+        * {
+            color: $cWhite;
+        }
+
+        span {
+
+            &::before,
+            &::after {
+                background-color: $cWhite;
+            }
+        }
+    }
+
+    &.animate {
+        span {
+            &.line-TopLeft {
+                &::before {
+                    height: 13px;
+                }
+
+                &::after {
+                    width: 13px;
+                }
+            }
+
+            &.line-BottomRight {
+                &::before {
+                    height: 13px;
+                }
+
+                &::after {
+                    width: 13px;
+                }
+            }
+        }
+    }
+}
+
+.contentImage-section {
+    figure {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .inner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .border-box {
+            position: relative;
+            padding: 84px 80px 94px;
+            width: 100%;
+            border-width: 1px 1px 1px 0;
+            border-style: solid;
+            border-color: $cBlack;
+            margin: 70px 0;
+        }
+
+        p {
+            margin: 20px 0 0 0;
+        }
+
+        .btn {
+            margin: 25px 0 0 0;
+        }
+    }
+
+    .single {
+        margin-bottom: 100px;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        &:nth-child(2n) {
+            .row {
+                flex-direction: row-reverse;
+            }
+
+            .inner {
+                .border-box {
+                    border-width: 1px 0 1px 1px;
+                }
+            }
+        }
+    }
+
+    &.about-section2 {
+        padding: 30px 0 100px 0;
+    }
+}

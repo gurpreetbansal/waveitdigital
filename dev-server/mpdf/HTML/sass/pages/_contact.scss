@@ -1,0 +1,55 @@
+.contact-section {
+    border-top: 1px solid $cBorder;
+    padding: 100px 0;
+
+    h2 {
+        margin: 10px 0 20px 0;
+    }
+
+    .left {
+        h3 {
+            margin: 0 0 30px 0;
+        }
+
+        ul {
+            position: relative;
+            padding: 0 0 0 80px;
+            max-width: 350px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 12px;
+                width: 40px;
+                height: 1px;
+                background-color: $cBorder;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+.subscribe-section {
+    padding: 50px 0 0 0;
+
+    .inner {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 120px 0 220px 0;
+    }
+
+    .form-box {
+        background-color: $cWhite;
+        max-width: 900px;
+        margin: -100px auto 0 auto;
+        padding: 70px 100px 100px 100px;
+    }
+}

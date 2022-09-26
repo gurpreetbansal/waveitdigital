@@ -1,0 +1,12 @@
+Array
+(
+    [profile_image] => Array
+        (
+            [name] => image_picker_9CB53F28-CB25-413B-9A80-F9840F782006-328-0000003678A85996.jpg
+            [type] => application/octet-stream
+            [tmp_name] => /tmp/phpiXuNjX
+            [error] => 0
+            [size] => 206112
+        )
+
+)
